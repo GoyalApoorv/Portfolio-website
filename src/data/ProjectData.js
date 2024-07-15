@@ -1,6 +1,7 @@
 import * as Icons from "../Assets";
 import chatbotImage from "../Assets/Chatbot.png";
 import hundredxImage from "../Assets/100x.png";
+import chatAppImage from "../Assets/chat-app-socketio.png"
 
 // --------------------------------------- Project List
 export const ProjectList = [
@@ -22,7 +23,7 @@ export const ProjectList = [
     demo_url: "https://chatbot-project-nextjs.vercel.app/",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/portfolio.png",
+    img: chatAppImage,
     title: "Full stack chat app",
     description: "Real-time chat application using JavaScript and Socket.io for instant messaging and collaboration",
     tech_stack: "Reactjs, Css",
